@@ -27,3 +27,9 @@
 
 
 // 3] JSX : it is the combination of html and javascript
+
+// 4] Component : it is the reusable code which we can use in our webpage , it is like a function which return some UI
+// 5] Props : it is the way to pass data from one component to another component 
+// 6] State : it is the way to manage the data in a component 
+// 7] Hooks : it is the way to use state and other react features in functional components      
+//
