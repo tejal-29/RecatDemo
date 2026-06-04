@@ -32,4 +32,6 @@
 // 5] Props : it is the way to pass data from one component to another component  always from parent to child component , it is read only we cant change the props in the child component
 // 6] State : it is the way to manage the data in a component 
 // 7] Hooks : it is the way to use state and other react features in functional components      
-//
+// 8] Objects : it is the collection of key value pairs m ay be same or different data types .. arr.map arr.forEach arr.filter arr.reduce  these are the methods of array which we can use to manipulate the array
+// 9] Arrays : it is the collection of similar data types
+// 10] Events : it is the way to handle user interactions in react
