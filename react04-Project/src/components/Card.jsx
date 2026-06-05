@@ -5,10 +5,10 @@ const Card = (props) => {
 
     console.log(props);
     return (
-        
 
-            <div className='card'>
-            
+
+        <div className='card'>
+
             <div className='top'>
                 <img src={props.logo} alt={props.company} />
                 <button>SAVE<Bookmark size={12} color="black" /></button>
@@ -31,7 +31,7 @@ const Card = (props) => {
                 <button>Apply Now</button>
             </div>
         </div>
-        
+
     )
 }
 

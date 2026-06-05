@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './components/Card'
 // import User from './components/User'
+import Contact from './components/Contact'
 
 const App = () => {
 
@@ -151,12 +152,27 @@ const App = () => {
         console.log(idex);
 
         return <div key={idex}>
-          <Card logo={elem.logo} company={elem.companyN} post={elem.datePosted} position={elem.position} roleType={elem.tag1} type={elem.tag2} pay={elem.salary} add={elem.location} />
+          <Card 
+          logo={elem.logo} 
+          company={elem.companyN} 
+          post={elem.datePosted} 
+          position={elem.position} 
+          roleType={elem.tag1} 
+          type={elem.tag2} 
+          pay={elem.salary} 
+          add={elem.location} 
+          />
         </div>
           
       })}
 
     </div>
+    <div className='enquiry'>
+      <h1>Have any questions?</h1>
+      <Contact />
+      
+      </div>
+
     </div>
   )
 }
