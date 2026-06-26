@@ -15,3 +15,17 @@ body {
 body {
   background-color: black;
 }
+#parent2{
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+}
+#parent2 h1{
+  color: rgb(65, 65, 1);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
